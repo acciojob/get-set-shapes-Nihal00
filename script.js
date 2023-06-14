@@ -18,7 +18,7 @@ class Rectangle {
 	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	getPerimeter(){
 		console.log((this.width + this.height) + (this.width + this.height));
 	}
