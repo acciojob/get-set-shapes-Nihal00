@@ -19,7 +19,7 @@ class Rectangle {
 }
 
 class Square extends Animal {
-	petPerimeter(){
+	getPerimeter(){
 		console.log((this.width + this.height) + (this.width + this.height));
 	}
 }
